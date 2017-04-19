@@ -4,7 +4,7 @@ var zomato = require('zomato');
 const curl = require('curlrequest');
 
 var client = zomato.createClient({
-  userKey: 'd9366021b4991b6c8dd1979c6bc17caf', //as obtained from [Zomato API](https://developers.zomato.com/apis) 
+  userKey: 'api-key', //as obtained from [Zomato API](https://developers.zomato.com/apis) 
 });
 client.getCategories(null, function(err, result){
     if(!err){
